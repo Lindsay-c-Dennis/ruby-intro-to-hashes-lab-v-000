@@ -8,8 +8,9 @@ def actor
 end
 
 def monopoly
-	monopoly = {}
-  monopoly.merge!(:railroads => {})
+	monopoly = {
+	  :railroads => {}
+	}
   
 end
 
